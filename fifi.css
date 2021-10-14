@@ -1,0 +1,82 @@
+#logo
+{
+	width: 80px;
+}
+#header
+{
+	font-size: small;
+}
+h2, h5
+{
+	font-size: 16px;
+}
+
+#Navigation
+{
+  	width: 250px;
+  	height: 50px;
+  	color: blue;
+  	margin: 0;
+  	position: absolute;
+  	top: 10px;
+  	right: 10px;	
+}
+
+#hebergement
+{
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	background-image: 30%;
+}
+
+img{
+	
+	flex-direction: row;
+	border-radius: 10px	
+}
+
+#container
+{
+	width: 50px;
+	height: 70px;
+	flex-direction: column;
+	position: absolute;
+	top: 225px;
+	right: 220px;
+	background-color: #f2f2f2;
+	color: black;
+	background-image: 30%;
+	background-size: cover;
+
+}
+h1{
+	width: 200px;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+#activités
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 350px;
+	width: 100px;
+	align-items: flex-end;
+	background-image: 30%;
+}
+
+#footer
+{
+	width: 200%;
+	height: 50%;
+	background-color: #f2f2f2;
+	display: inline-block;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+
+
